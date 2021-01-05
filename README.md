@@ -15,7 +15,7 @@ This app does NOT work in Simulator -> **App must be run in an actual device.**<
 - Tools -> Board -> ESP32 Arduino -> Select `ESP32 Dev Module`
 
 **Board settings**<br>
-<img src="https://user-images.githubusercontent.com/60368973/103686254-64f34600-4f43-11eb-921b-c179343b015a.png" width="400">
+<img src="https://user-images.githubusercontent.com/60368973/103705769-7eef5180-4f60-11eb-8fcd-9c70f18a5c09.png" width="400">
 
 ## Serial Monitor -> Baud Rate 9600
 
