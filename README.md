@@ -6,8 +6,9 @@ https://github.com/onehwengineer/rn_ble_manager_v2 <br>
 Data broadcasted from ESP32 is displayed real-time.<br>
 This app does NOT work in Simulator -> **App must be run in an actual device.**<br>
 
-> **Change Logs**
-> Two callback functions defined
+> **Change Logs** <br>
+> [v2.2] <br>
+> Two callback functions defined :
 >   - [1] One at Server (Device/Profile) level -> this callback function should define boolean : `deviceConnected` in `loop()` function
 >     - This allows users to first makes a click in App to connect to ESP (**Device/Profile & Service**)
 >   - [2] Second at Characteristic level -> this callback function should define boolean : `characteristicConnected` in `loop()` function
