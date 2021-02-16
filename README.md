@@ -7,7 +7,7 @@ Data broadcasted from ESP32 is displayed real-time.<br>
 This app does NOT work in Simulator -> **App must be run in an actual device.**<br>
 
 > **Change Logs** <br>
-> [v2.2] <br>
+> [v2p2] <br>
 > Two callback functions defined :
 >   - [1] One at Server (Device/Profile) level -> this callback function should define boolean : `deviceConnected` in `loop()` function
 >     - This allows users to first makes a click in App to connect to ESP (**Device/Profile & Service**)
