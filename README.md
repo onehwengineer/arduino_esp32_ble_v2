@@ -7,6 +7,9 @@ Data broadcasted from ESP32 is displayed real-time.<br>
 This app does NOT work in Simulator -> **App must be run in an actual device.**<br>
 
 > **Change Logs** <br>
+> [v2p3] <br>
+>   - Defined 4 characteristics per A's UUIDs <br>
+>   - Included characteristic idenitifier in Characteristic Callback function <br>
 > [v2p2] <br>
 > Two callback functions defined :
 >   - [1] One at Server (Device/Profile) level -> this callback function should define boolean : `deviceConnected` in `loop()` function
