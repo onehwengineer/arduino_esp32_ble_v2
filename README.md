@@ -14,6 +14,7 @@ This app does NOT work in Simulator -> **App must be run in an actual device.**<
 >   - [2] Second at Characteristic level -> this callback function should define boolean : `characteristicConnected` in `loop()` function
 >     - This allows users to make another click afterwards to connect to a **Characteristic** --> ESP starts broadcasting Data
 >   - When booleans from `deviceConnected && characteristicConnected` are satisfied, then Data is broadcasted
+>   - From my app, a single click to connect takes care of both [1] & [2]
 
 ## Arduino Board Settings
 **Setting up the board for the first time**
