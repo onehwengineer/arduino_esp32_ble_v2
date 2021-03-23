@@ -9,10 +9,12 @@ This app does NOT work in Simulator -> **App must be run in an actual device.**<
 > **Change Logs** <br>
 > [v4] <br>
 >   - Functional POC1 test script <br>
->   - BLE data in raw bytes format (NOT string as previous) <br>
+>   - BLE data in raw bytes format (NOT string as previous) <br>  
+
 > [v2p3] <br>
 >   - Defined 4 characteristics per A's UUIDs <br>
 >   - Included characteristic idenitifier in Characteristic Callback function <br>
+
 > [v2p2] <br>
 > Two callback functions defined :
 >   - [1] One at Server (Device/Profile) level -> this callback function should define boolean : `deviceConnected` in `loop()` function
