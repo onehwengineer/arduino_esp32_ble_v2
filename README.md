@@ -7,6 +7,9 @@ Data broadcasted from ESP32 is displayed real-time.<br>
 This app does NOT work in Simulator -> **App must be run in an actual device.**<br>
 
 > **Change Logs** <br>
+> [v4] <br>
+>   - Functional POC1 test script <br>
+>   - BLE data in raw bytes format (NOT string as previous) <br>
 > [v2p3] <br>
 >   - Defined 4 characteristics per A's UUIDs <br>
 >   - Included characteristic idenitifier in Characteristic Callback function <br>
